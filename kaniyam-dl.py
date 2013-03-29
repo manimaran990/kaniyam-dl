@@ -4,7 +4,7 @@ import urllib
 import re
 import os
 import sys
-kaniyam=[] #list stores the only kaniyam releases
+kaniyam=[] #list stores only kaniyam releases
 spec=[] #stores special releases
 #parsed function will fetch the internet and
 #read all the available links.
@@ -82,6 +82,8 @@ def main():
 	elif res=='4':
 		print 'thank you'
 		loop=False	
+	else:
+		print 'pls enter valid choice!!'
 	
 if __name__=='__main__':
 	try:
