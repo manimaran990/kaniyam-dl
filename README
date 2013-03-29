@@ -5,4 +5,12 @@ date: 28-3-2013
 simple download script to download all released open-source
 kaniyam magazines from kaniyam.com
 
+date: 29-3-2013
+
+added features likes latest release download,
+bulk download,
+special release download
+user menu
+keyboard interrupt handling
+
 
